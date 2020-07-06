@@ -106,7 +106,7 @@ export default class App extends React.Component{
       </div>
 
       <Switch>
-        <Route exact path ="/">
+        <Route exact path ="/portfolio_react">
           <Home/>
         </Route>
       <Route exact path ="/home">
