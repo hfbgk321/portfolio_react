@@ -1,0 +1,445 @@
+
+.footer{
+  background-color: burlywood;
+  width: 12rem;
+  height:1.5rem;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  left: 8rem;
+  bottom: 3rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+}
+.copyright_text{
+  position: relative;
+  bottom: 5rem;
+}
+
+.greeting{
+  position: relative;
+  bottom: 3rem;
+}
+.site{
+  position: relative;
+  bottom: 1rem;
+}
+.MuiAvatar-root.jacky{
+  height:5rem;
+  width:5rem;
+  position: relative;
+  top:2rem;
+  left: 2rem;
+}
+
+.intro-card{
+  background-color: aqua;
+  height:5rem;
+  border-radius: 25px;
+  margin:1rem;
+}
+
+.MuiPaper-root.introduction{
+  position: relative;
+  bottom: 1rem;
+}
+.apology_for_essay{
+  background-color: aqua;
+  position: relative;
+  border-radius: 25px;
+  margin-left:.7rem;
+  margin-right: .7rem;
+  margin-bottom: 10rem;
+
+}
+
+.apology_content{
+  margin: 2rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top:.5rem;
+}
+.apology_para{
+  position: relative;
+  bottom: 1rem;
+}
+.timeline_body{
+  position: relative;
+  right:1rem;
+  bottom:8rem;
+}
+
+.MuiTimelineItem-root.sbu{
+  position: relative;
+  right:2rem;
+}
+
+.MuiTimelineItem-root.optum{
+  position: relative;
+  right:2rem;
+}
+.MuiTimelineItem-root.db{
+  position: relative;
+  right:2rem;
+}
+.MuiTimelineItem-root.fx{
+  position: relative;
+  right:2rem;
+}
+
+.MuiPaper-root.education{
+  height: 24rem;
+  width:15.3rem;
+}
+.MuiPaper-root.optum_paper{
+  height: 37rem;
+  width:15.3rem;
+}
+.MuiPaper-root.db_paper{
+  height: 34rem;
+  width:15.3rem;
+}
+.MuiPaper-root.fx_paper{
+  height: 35rem;
+  width:15.3rem;
+}
+
+.MuiTimelineDot-root.sbu,.MuiTimelineConnector-root.sbu{
+  background-color: red;
+}
+
+.MuiTimelineDot-root.optum,.MuiTimelineConnector-root.optum{
+  background-color: orange;
+}
+
+.MuiTimelineDot-root.db,.MuiTimelineConnector-root.db{
+  background-color: #00999f;
+}
+.MuiTimelineDot-root.fx{
+  background-color: #3f51b5;
+}
+
+.skills_container{
+  margin-bottom: 20rem;
+  position: relative;
+  text-align: center;
+  bottom:5rem;
+  height: 4rem;
+  background-color: aqua;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+}
+.skills_intro{
+  position: relative;
+  top:.5rem;
+}
+
+.table_container{
+  position: relative;
+  bottom: 20rem;
+  margin-bottom: 10rem;
+}
+
+.behavioral_container{
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+
+@media screen and (min-width: 1024px){
+  .passion_heading_container{
+    position: relative;
+    left:22rem;
+    top:3rem;
+  }
+  .MuiPaper-root{
+    width: 32%;
+    height: 30rem;
+    width: 23rem;
+    display: inline-block;
+    margin: .6rem;
+    position: relative;
+    bottom: 3rem;
+  }
+
+  .MuiPaper-root.card_position{
+    position: relative;
+    left:20rem;
+  }
+  
+  .test_passion{
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  
+  .obession{
+    font-size: 5rem;
+  }
+  .obession_position{
+    position: relative;
+    bottom: 2rem;
+  }
+  
+  .passion_heading_content{
+    position: relative;
+  }
+  .skills{
+    width: 19rem;
+    position: relative;
+    left: 2rem;
+    text-align: justify;
+  }
+  .MuiButtonBase-root.MuiChip-root.MuiChip-colorPrimary.MuiChip-clickableColorPrimary.MuiChip-clickable{
+    margin: .3rem;
+  }
+  #wellness{
+    position: relative;
+  }
+  div.MuiButtonBase-root{
+    margin-left: .5rem;
+  }
+
+  .MuiCardActions-root.continue{
+    position: relative;
+    top:3rem;
+    left:2rem;
+  }
+
+  .MuiCardActions-root.engineering{
+    position: relative;
+    top: 3rem;
+    left:3rem;
+  }
+
+  .MuiCardActions-root.health{
+    position: relative;
+    left:1.3rem;
+    top:5.5rem;
+  }
+  
+  #experience{
+    height: 43rem;
+    width:45rem;
+    overflow: auto;
+  }
+
+  .experience_overall{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .MuiTimeline-root.timeline_1024_container{
+    position: relative;
+    right:2rem;
+  }
+
+  .MuiPaper-root{
+    text-align: left;
+    margin-top: 3.5rem;
+  }
+  .MuiPaper-root.education{
+    height: 25rem;
+    width:20rem;
+  }
+  .MuiPaper-root.optum_paper{
+    height:32rem;
+    width:20rem;
+    position: relative;
+    left: 0;
+  }
+  .MuiPaper-root.db_paper{
+    height:35rem;
+    width:20rem;
+    position: relative;
+    right: 0rem;
+  }
+  .MuiPaper-root.fx_paper{
+    height:35rem;
+    width:20rem;
+    position: relative;
+    right: 0rem;
+  }
+  .rev_classes{
+    position: relative;
+    top:1.5rem;
+    left: 1rem;
+  }
+  .MuiTypography-root.heading,.MuiTypography-root.position{
+    text-align: center;
+  }
+  .MuiTypography-root.tasks{
+    position: relative;
+    top:1rem;
+  }
+  .second_task{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .MuiTimelineDot-root.sbu,.MuiTimelineConnector-root.sbu{
+    background-color: red;
+  }
+
+  .MuiTimelineDot-root.optum,.MuiTimelineConnector-root.optum{
+    background-color: orange;
+  }
+
+  .MuiTimelineDot-root.db,.MuiTimelineConnector-root.db{
+    background-color: #00999f;
+  }
+  .MuiTimelineDot-root.fx{
+    background-color: #3f51b5;
+  }
+}
+
+@media screen and (min-width: 1900px){
+  .passion_heading_container{
+    position: relative;
+    left:30rem;
+    top:6rem;
+  }
+  .MuiPaper-root{
+    width: 32%;
+    height: 30rem;
+    width: 23rem;
+    display: inline-block;
+    margin: .6rem;
+    position: relative;
+    bottom: 3rem;
+  }
+
+  .MuiPaper-root.card_position{
+    position: relative;
+    left:30rem;
+    top:4rem;
+  }
+  
+  .test_passion{
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+  
+  .obession{
+    font-size: 5rem;
+  }
+  .obession_position{
+    position: relative;
+    bottom: 2rem;
+  }
+  
+  .passion_heading_content{
+    position: relative;
+  }
+  .skills{
+    width: 19rem;
+    position: relative;
+    left: 2rem;
+    text-align: justify;
+  }
+  .MuiButtonBase-root.MuiChip-root.MuiChip-colorPrimary.MuiChip-clickableColorPrimary.MuiChip-clickable{
+    margin: .3rem;
+  }
+  #wellness{
+    position: relative;
+  }
+  div.MuiButtonBase-root{
+    margin-left: .5rem;
+  }
+
+  .MuiCardActions-root.continue{
+    position: relative;
+    top:3rem;
+    left:2rem;
+  }
+
+  .MuiCardActions-root.engineering{
+    position: relative;
+    top: 3rem;
+    left:3rem;
+  }
+
+  .MuiCardActions-root.health{
+    position: relative;
+    left:1.3rem;
+    top:5.5rem;
+  }
+  
+  #experience{
+    height: 43rem;
+    width:45rem;
+    overflow: auto;
+  }
+
+  .experience_overall{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .MuiTimeline-root.timeline_1024_container{
+    position: relative;
+    right:2rem;
+  }
+
+  .MuiPaper-root{
+    text-align: left;
+    margin-top: 3.5rem;
+  }
+  .MuiPaper-root.education{
+    height: 25rem;
+    width:20rem;
+  }
+  .MuiPaper-root.optum_paper{
+    height:32rem;
+    width:20rem;
+    position: relative;
+    left: 0;
+  }
+  .MuiPaper-root.db_paper{
+    height:35rem;
+    width:20rem;
+    position: relative;
+    right: 0rem;
+  }
+  .MuiPaper-root.fx_paper{
+    height:35rem;
+    width:20rem;
+    position: relative;
+    right: 0rem;
+  }
+  .rev_classes{
+    position: relative;
+    top:1.5rem;
+    left: 1rem;
+  }
+  .MuiTypography-root.heading,.MuiTypography-root.position{
+    text-align: center;
+  }
+  .MuiTypography-root.tasks{
+    position: relative;
+    top:1rem;
+  }
+  .second_task{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .MuiTimelineDot-root.sbu,.MuiTimelineConnector-root.sbu{
+    background-color: red;
+  }
+
+  .MuiTimelineDot-root.optum,.MuiTimelineConnector-root.optum{
+    background-color: orange;
+  }
+
+  .MuiTimelineDot-root.db,.MuiTimelineConnector-root.db{
+    background-color: #00999f;
+  }
+  .MuiTimelineDot-root.fx{
+    background-color: #3f51b5;
+  }
+}
