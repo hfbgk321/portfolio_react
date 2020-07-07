@@ -1,10 +1,11 @@
+
 .project-header{
   background-color: aqua;
   height:9rem;
   text-align: center;
   position: fixed;
   z-index: 999;
-  width: 23rem;
+  width: 100%;
 }
 .MuiAvatar-root.jacky{
   height:6rem;
@@ -27,7 +28,7 @@
 
 .project_cards{
   position: relative;
-  left:.3rem;
+  left:8%;
   top:10rem;
   margin-bottom:5rem;
 }
