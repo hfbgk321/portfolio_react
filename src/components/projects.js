@@ -94,7 +94,7 @@ export default class Projects extends React.Component{
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 425,
     height:500,
     marginBottom: 20
   },

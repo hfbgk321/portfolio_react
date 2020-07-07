@@ -92,7 +92,7 @@ export default class Contact extends React.Component{
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
+    minWidth: 400,
   },
   bullet: {
     display: 'inline-block',
@@ -119,7 +119,7 @@ function OutlinedCard() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <Card className={classes.root} variant="outlined">
+    <Card className={classes.root} variant="outlined" classes ={{root:"business_card"}}>
       <CardContent>
 
         <Typography classes ={{root: "connect_header"}}>Connect with me on :</Typography>
