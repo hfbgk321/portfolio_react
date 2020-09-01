@@ -1,17 +1,16 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-.MuiBottomNavigation-root.main_nav{
-  position:fixed;
+.MuiBottomNavigation-root.main_nav {
+  position: fixed;
   bottom: 0;
   z-index: 999;
   width: 100%;
 }
 
-
 /*This is for 1024*/
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .sidenav {
     height: 94%;
     width: 250px;
@@ -22,15 +21,11 @@ html{
     background-color: #f4f6ff;
     overflow: hidden;
     padding-top: 20px;
-    border-radius: 25px;;
-    margin: 20px;;
-    box-shadow: 0 3px 15px rgba(0,0,0,.15);
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
     display: inherit;
-    
   }
-
-
-
 
   .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -49,71 +44,67 @@ html{
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
-  .nav_tabs{
+  .nav_tabs {
     text-align: center;
     position: relative;
-    right: .7rem;
-
+    right: 0.7rem;
   }
 
-  .intro_bar{
+  .intro_bar {
     position: relative;
-    left:10%;
+    left: 10%;
   }
 
-  .MuiAvatar-rounded.sizing{
+  .MuiAvatar-rounded.sizing {
     height: 12.5rem;
     width: 12.5rem;
     position: relative;
     right: 1rem;
   }
 
-  .name{
-    color:#07031a;
-    font-family: 'Roboto', sans-serif;
+  .name {
+    color: #07031a;
+    font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
     position: relative;
-    left:1rem;
+    left: 1rem;
     color: #f50057;
   }
 
-  .content_box{
+  .content_box {
     width: 80%;
     height: auto;
     text-align: justify;
     word-spacing: inherit;
     font-weight: 500;
     color: #818181;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-  footer{
-    font-family: 'Roboto', sans-serif;
+  footer {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: center;
     position: relative;
-
   }
 
-  .copyright{
+  .copyright {
     position: relative;
-    top:.5rem;
+    top: 0.5rem;
     color: #818181;
   }
 }
 
-
-@media screen and (min-width: 1900px){
-  a{
+@media screen and (min-width: 1900px) {
+  a {
     color: black;
     text-decoration: none;
   }
 
-a:hover 
-{
-     color:#00A0C6; 
-     text-decoration:none; 
-     cursor:pointer;  
-}
+  a:hover {
+    color: #00a0c6;
+    text-decoration: none;
+    cursor: pointer;
+  }
   .sidenav {
     height: 94%;
     width: 250px;
@@ -124,15 +115,11 @@ a:hover
     background-color: #f4f6ff;
     overflow: hidden;
     padding-top: 20px;
-    border-radius: 25px;;
-    margin: 20px;;
-    box-shadow: 0 3px 15px rgba(0,0,0,.15);
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
     display: inherit;
-    
   }
-
-
-
 
   .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -151,36 +138,35 @@ a:hover
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
-  .nav_tabs{
+  .nav_tabs {
     text-align: center;
     position: relative;
-    right: .7rem;
-    top:3rem;
-
+    right: 0.7rem;
+    top: 3rem;
   }
 
-  .intro_bar{
+  .intro_bar {
     position: relative;
-    left:10%;
+    left: 10%;
   }
 
-  .MuiAvatar-rounded.sizing{
+  .MuiAvatar-rounded.sizing {
     height: 12.5rem;
     width: 12.5rem;
     position: relative;
     right: 1rem;
   }
 
-  .name{
-    color:#07031a;
-    font-family: 'Roboto', sans-serif;
+  .name {
+    color: #07031a;
+    font-family: "Roboto", sans-serif;
     font-size: 1.7rem;
     position: relative;
-    left:1rem;
+    left: 1rem;
     color: #f50057;
   }
 
-  .content_box{
+  .content_box {
     width: 80%;
     height: auto;
     text-align: left;
@@ -189,24 +175,17 @@ a:hover
     color: #818181;
     font-size: 1rem;
   }
-  footer{
-    font-family: 'Roboto', sans-serif;
+  footer {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-align: center;
     position: relative;
-    top:6rem;
-
+    top: 3rem;
   }
 
-  .copyright{
+  .copyright {
     position: relative;
-    top:.5rem;
+    top: 0.5rem;
     color: #818181;
   }
 }
-
-
-
-
-
-
