@@ -49,6 +49,11 @@
   margin-left: 0.5rem;
   margin-top: 0.5rem;
 }
+.MuiCardActions-root.reinvest_life {
+  position: relative;
+  bottom: 1rem;
+  left: 8rem;
+}
 
 @media screen and (min-width: 1024px) {
   body {
@@ -79,6 +84,7 @@
 
   .MuiCardActions-root.reinvest_life {
     position: relative;
+    top: 0.5rem;
     left: 6.8rem;
   }
 
@@ -124,6 +130,12 @@
   .MuiCardActions-root.clique {
     position: relative;
     top: 2.7rem;
+    left: 6.8rem;
+  }
+
+  .MuiCardActions-root.reinvest_life {
+    position: relative;
+    bottom: 2rem;
     left: 6.8rem;
   }
 
