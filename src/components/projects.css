@@ -1,143 +1,146 @@
-
-.project-header{
+.project-header {
   background-color: aqua;
-  height:9rem;
+  height: 9rem;
   text-align: center;
   position: fixed;
   z-index: 999;
   width: 100%;
 }
-.MuiAvatar-root.jacky{
-  height:6rem;
-  width:6rem;
+.MuiAvatar-root.jacky {
+  height: 6rem;
+  width: 6rem;
   position: relative;
-  top:1rem;
+  top: 1rem;
   left: 1rem;
 }
 
-.project-instructions{
+.project-instructions {
   position: relative;
   bottom: 3rem;
   width: 12rem;
   position: relative;
-  left:9rem;
+  left: 9rem;
   bottom: 6rem;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
 }
 
-.project_cards{
+.project_cards {
   position: relative;
-  top:10rem;
-  margin-bottom:5rem;
+  top: 10rem;
+  margin-bottom: 5rem;
 }
 
-.skills_transplant{
+.skills_transplant {
   position: relative;
-  left:.5rem;
+  left: 0.5rem;
 }
-.skills_grocery{
+.skills_grocery {
   position: relative;
-  left:.5rem;
+  left: 0.5rem;
 }
 
-.skills_bank{
+.skills_bank {
   position: relative;
-  left:.5rem;
+  left: 0.5rem;
 }
 
-.MuiButtonBase-root.clique{
-  margin-left: .5rem;
-  margin-top: .5rem;
+.MuiButtonBase-root.clique {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-@media screen and (min-width: 1024px){
-  body{
+@media screen and (min-width: 1024px) {
+  body {
     overflow: scroll;
     overflow-x: hidden;
   }
-  .test_projects{
+  .test_projects {
     color: brown;
-        font-family: 'Roboto', sans-serif;
-        font-weight: lighter;
-        position: relative;
-        font-size: 3rem;
-        left:20rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    position: relative;
+    font-size: 3rem;
+    left: 20rem;
   }
-  
-  .projects{
-    position:relative;
-    top:1rem;
-    left:19rem;
+
+  .projects {
+    position: relative;
+    top: 1rem;
+    left: 19rem;
     width: 80rem;
   }
-  
-  .MuiCardActions-root.clique{
+
+  .MuiCardActions-root.clique {
     position: relative;
-    top:2.7rem;
+    top: 2.7rem;
     left: 6.8rem;
   }
-  
-  .MuiCardActions-root.organ{
+
+  .MuiCardActions-root.reinvest_life {
     position: relative;
     left: 6.8rem;
-    top:.2rem;
   }
-  .MuiCardActions-root.grocery{
+
+  .MuiCardActions-root.organ {
     position: relative;
-    top:1.4rem;
-    left:6.8rem;
+    left: 6.8rem;
+    top: 0.2rem;
   }
-  
-  .MuiCardActions-root.bank{
+  .MuiCardActions-root.grocery {
     position: relative;
-    left:6.8rem;
-    top:.2rem;
+    top: 1.4rem;
+    left: 6.8rem;
+  }
+
+  .MuiCardActions-root.bank {
+    position: relative;
+    left: 6.8rem;
+    top: 0.2rem;
   }
 }
 
-@media screen and (min-width: 1900px){
-  body{
+@media screen and (min-width: 1900px) {
+  body {
     overflow: scroll;
     overflow-x: hidden;
   }
-  .test_projects{
+  .test_projects {
     color: brown;
-        font-family: 'Roboto', sans-serif;
-        font-weight: lighter;
-        position: relative;
-        font-size: 3rem;
-        left:30rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    position: relative;
+    font-size: 3rem;
+    left: 30rem;
   }
-  
-  .projects{
-    position:relative;
-    top:1rem;
-    left:30rem;
+
+  .projects {
+    position: relative;
+    top: 1rem;
+    left: 30rem;
     width: 80rem;
   }
-  
-  .MuiCardActions-root.clique{
+
+  .MuiCardActions-root.clique {
     position: relative;
-    top:2.7rem;
+    top: 2.7rem;
     left: 6.8rem;
   }
-  
-  .MuiCardActions-root.organ{
+
+  .MuiCardActions-root.organ {
     position: relative;
     left: 6.8rem;
-    top:.2rem;
+    top: 0.2rem;
   }
-  .MuiCardActions-root.grocery{
+  .MuiCardActions-root.grocery {
     position: relative;
-    top:1.4rem;
-    left:6.8rem;
+    top: 1.4rem;
+    left: 6.8rem;
   }
-  
-  .MuiCardActions-root.bank{
+
+  .MuiCardActions-root.bank {
     position: relative;
-    left:6.8rem;
-    top:.2rem;
+    left: 6.8rem;
+    top: 0.2rem;
   }
 }
-

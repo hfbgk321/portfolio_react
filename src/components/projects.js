@@ -17,6 +17,7 @@ import clique from '../static/clique.jpg';
 import { makeStyles } from '@material-ui/core/styles';
 import Chip from '@material-ui/core/Chip';
 import FaceIcon from '@material-ui/icons/Face';
+import reinvest from '../static/reinvest.PNG';
 
 export default class Projects extends React.Component{
   constructor(props){
@@ -56,6 +57,7 @@ export default class Projects extends React.Component{
           </div>
         </div>
         <div className ="project_cards">
+        <ReinvestLife/>
         <CliqueIO/>
         <TransplantDriver/>
         <HashGrocery/>
@@ -73,6 +75,7 @@ export default class Projects extends React.Component{
       <h1 className="test_projects">I've experimented with things along the way...</h1>
       <h2 className="test_projects">More to come in the future...STAY TUNED.</h2>
       <div className = "projects">
+      <ReinvestLife1024/>
       <CliqueIO1024/>
       <TransplantDriver1024/>
       <HashGrocery1024/>
@@ -312,6 +315,103 @@ function BankLedger() {
   );
 }
 
+function ReinvestLife(){
+  const classes = useStyles();
+  
+  return (
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={reinvest}
+          title="Reinvest.Life"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Reinvest.Life
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+          A real estate property analysis software that helps users make predictions on real estate investments through the calculation of flags like Cash on Cash return, ROI, Net Operating Income, Fixed Monthly Morgage, Monthly Cash Flow, and many more. Using industry standard formulas and user friendly graphs to help visualize the data.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <div className ="reinvest_life">
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="JavaScript"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="ReactJs"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="NodeJs"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="MongoDB"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="ExpressJs"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="JSON Web Tokens"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="Bootstrap 4"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+
+        <Chip
+          size="small"
+          icon={<FaceIcon />}
+          label="Axios / Cors"
+          clickable
+          color="primary"
+          classes ={{root:"clique"}}
+        />
+        
+        </div>
+      <CardActions classes ={{root:"reinvest_life"}}>
+        <Button size="medium" color="primary" href ="https://github.com/hfbgk321/reinvest_fullstack">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+  );
+}
+
 
 
 //1024
@@ -325,6 +425,36 @@ const useStyles1024 = makeStyles({
     height: 180,
   },
 });
+
+function ReinvestLife1024(){
+  const classes = useStyles1024();
+
+  return (
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={reinvest}
+          title="Reinvest.Life"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Reinvest.Life
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+          A real estate property analysis software that helps users make predictions on real estate investments through the calculation of flags like Cash on Cash return, ROI, Net Operating Income, Fixed Monthly Morgage, Monthly Cash Flow, and many more. Using industry standard formulas and user friendly graphs to help visualize the data.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      
+      <CardActions classes ={{root:"reinvest_life"}}>
+        <Button size="medium" color="primary" href ="https://github.com/hfbgk321/reinvest_fullstack">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+  );
+}
 
 function CliqueIO1024() {
   const classes = useStyles1024();
