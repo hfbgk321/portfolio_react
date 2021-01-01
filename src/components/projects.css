@@ -45,14 +45,21 @@
   left: 0.5rem;
 }
 
+.skills_reinvest {
+  position: relative;
+  left: 0.5rem;
+  bottom: 1rem;
+}
+
 .MuiButtonBase-root.clique {
   margin-left: 0.5rem;
   margin-top: 0.5rem;
+  height: 1.2rem;
 }
+
 .MuiCardActions-root.reinvest_life {
-  position: relative;
-  bottom: 1rem;
-  left: 8rem;
+  margin-left: 0.5rem;
+  height: 0rem;
 }
 
 @media screen and (min-width: 1024px) {

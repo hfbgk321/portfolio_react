@@ -335,7 +335,7 @@ function ReinvestLife(){
           </Typography>
         </CardContent>
       </CardActionArea>
-      <div className ="reinvest_life">
+      <div className ="skills_reinvest">
         <Chip
           size="small"
           icon={<FaceIcon />}
