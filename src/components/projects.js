@@ -331,7 +331,7 @@ function ReinvestLife(){
             Reinvest.Life
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          A real estate property analysis software that helps users make predictions on real estate investments through the calculation of flags like Cash on Cash return, ROI, Net Operating Income, Fixed Monthly Morgage, Monthly Cash Flow, and many more. Using industry standard formulas and user friendly graphs to help visualize the data.
+          A real estate property analysis software that helps users make predictions on real estate investments through the calculation of flags like Cash on Cash return, ROI, Net Operating Income, Fixed Monthly Morgage, Monthly Cash Flow, and many more.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -379,7 +379,7 @@ function ReinvestLife(){
         <Chip
           size="small"
           icon={<FaceIcon />}
-          label="JSON Web Tokens"
+          label="JWT"
           clickable
           color="primary"
           classes ={{root:"clique"}}
